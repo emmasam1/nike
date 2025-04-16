@@ -1,0 +1,114 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    width: 90%;
+    padding: 30px 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    transition: .7s all;
+  }
+  .logo:hover{
+    color: rgb(193, 136, 136);
+  }
+  .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .links a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+  }
+  .section{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .section::after{
+    content: "";
+    display: block;
+    width: 200px;
+    height: .3px;
+    background-color: rgba(255, 255, 255, 0.598);
+    margin: 15px auto;
+  }
+  .section h1{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .section p{
+    font-size: 13px;
+    color: white;
+    margin: 0;
+    font-style: italic;
+  } 
+  ._grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 70%;
+    margin: 30px auto;
+  }
+  ._items{
+    border-radius: 10px;
+    border: .3px solid rgba(255, 255, 255, 0.447);
+    height: 350px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .icon{
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+  }
+  .icon_2{
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: .6px solid rgba(255, 255, 255, 0.447);
+    cursor: pointer;
+    transition: .7s ease-in-out;
+  }
+  .icon_2:hover{
+    background-color: rgba(255, 255, 255, 0.442);
+  }
+  ._items h2{
+    color: white;
+  }
+  ._items p{
+    color: white;
+  }
